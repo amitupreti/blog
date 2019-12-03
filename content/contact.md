@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: contact
 menu: main
 draft: true
 ---
