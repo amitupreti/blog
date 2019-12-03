@@ -40,6 +40,14 @@ collections:
           - {label: "Text", name: "body", widget: "markdown"}
           - {label: "Menu", name: "menu", widget: "string", default: "main"}
           - {label: "Draft", name: "draft", widget: "boolean", default: true, required: true}
+      - label: "Contact"
+        name: "contact"
+        file: "content/contact.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "Contact"}
+          - {label: "Text", name: "body", widget: "markdown"}
+          - {label: "Menu", name: "menu", widget: "string", default: "main"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: true, required: true}
   - label: "Settings"
     name: "settings"
     description: >
